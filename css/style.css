@@ -36,6 +36,7 @@ p,span,li,a {
 
 body {
     margin: 0;
+    overflow-x: hidden;
 }
 
 .section {
@@ -594,3 +595,200 @@ text-align: center;
     margin-bottom: 10px;
     margin-top: 20px;
 }
+
+.user-form {
+    margin-top: 162px;
+    margin-bottom: 76px;
+}
+
+.form-cards {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    gap: 39px;
+}
+
+.customer-card {
+    border: 1px solid #DDDDDD;
+    padding: 35px;
+    margin-top: 23px;
+    margin-bottom: 33px;
+    max-width: 581px;
+
+}
+
+.customer-says-card-box h3 {
+    margin-top: 16px;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.customer-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 27px;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.customer-profile {
+    display: flex;
+    gap: 10px;
+
+}
+.customer-profile h5 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.customer-profile img {
+    border-radius: 50px;
+}
+
+
+.profile-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.customer-card-comment {
+    color: var(--text-color);
+    font-size: 22px;
+    margin-top: 17px;
+    padding-bottom: 31px;
+}
+
+.customer-card-comment span{
+    color: var(--text-color);
+    font-weight: 600;
+    color: var(--heading-color);
+    font-style: italic;
+    font-size: 22px;
+}
+
+.swith-comment-buttons {
+    display: flex;
+    gap: 13px;
+
+}
+
+.left-right-button {
+    width: 44.8px;
+    height: 44.8px;
+    border-radius: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.left-button {
+    background-color: #f8f8f8;
+    background-image: url('../media/previus-button-Vector.svg');
+}
+
+.right-button {
+    background-color: var(--yellow-bg-color);
+    background-image: url('../media/next-button-Vector.svg');
+}
+
+
+
+.yellow-bg-call-info {
+    background-color: var(--yellow-bg-color);
+    padding: 50px 116px 50px 42px;
+    margin-top: 23px;
+    margin-bottom: 33px;
+    max-width: 581px;
+    text-align: left;
+}
+
+.yellow-bg-call-info h4{
+    margin-top: 22px;
+    margin-bottom: 12px;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.yellow-bg-call-info p{
+    color: var(--heading-color);
+    font-size: 18px;
+    margin-bottom: 22px;
+}
+
+.tel-num {
+    padding-block: 5px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 800;
+    padding-left: 54px;
+    background-image: url('../media/tel-call-Vector.svg');
+    background-repeat: no-repeat;
+    background-position: 0 center;
+}
+
+.appointment-form h3 {
+    margin-top: 15px;
+    margin-bottom: 23px;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.appointment-form form {
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f4f4;
+    padding: 68px 58px; 
+    padding-bottom: 0;
+}
+
+.appointment-form input{
+    width: 464px;
+    height: 65px;
+    font-size: 18px;
+    padding-left: 33px;
+    margin-bottom: 30px;
+    border: none;
+}
+
+.appointment-form textarea{
+    width: 464px;
+    height: 119px;
+    padding-top: 21px;
+    padding-left: 33px;
+    resize: none;
+    font-size: 18px;
+    margin-bottom: 30px;
+    border: none;
+}
+
+.appointment-form input[type=submit]{
+    background-color: var(--yellow-bg-color);
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.clients-content {
+    text-align: center;
+    max-width: 1006px;
+}
+
+.clients-content h2{
+    margin-top: 14px;
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 45.5px;
+}
+
+.clients-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 149px;
+}
+
